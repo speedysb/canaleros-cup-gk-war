@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ficha Oficial de Registro | GK WAR</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="form-page">
+<header class="site-header"><a class="brand" href="index.html"><span>CANALEROS <b>CUP</b><small>GK WAR PTY</small></span></a><nav><a href="index.html">← VOLVER AL TORNEO</a></nav></header>
+<main class="form-wrap">
+  <div class="form-intro"><p class="eyebrow">CANALEROS CUP · 17 ENERO 2027</p><h1>FICHA OFICIAL<br><em>DE REGISTRO</em></h1><p>Completa la ficha oficial de GK WAR.</p></div>
+  <form id="gk-registration" class="registration-form">
+    <div class="form-brand"><h2>GK WAR 2026</h2><h3>FICHA OFICIAL DE REGISTRO DE PORTEROS</h3><p>Keeper Kombat Panamá | Primera Base de Datos de Porteros de Panamá</p></div>
+    <section class="form-section"><h3>1. DATOS PERSONALES</h3>
+      <label>Nombre:<input name="nombre" required></label>
+      <label>Apellidos:<input name="apellidos" required></label>
+      <div class="field-row"><label>Fecha de nacimiento:<input name="fecha_nacimiento" type="date" required></label><label>Edad:<input name="edad" type="number" min="1" required></label></div>
+      <label>Número de celular:<input name="celular" type="tel" required></label>
+      <label>Instagram (@):<input name="instagram"></label>
+    </section>
+    <section class="form-section"><h3>2. INFORMACIÓN DEPORTIVA</h3>
+      <label>Academia / Club al que perteneces:<input name="academia_club"></label>
+      <label>Categoría:<input name="categoria"></label>
+      <label>¿Cuánto tiempo llevas jugando como portero?<input name="tiempo_como_portero"></label>
+    </section>
+    <section class="form-section"><h3>3. TU HISTORIA Y LOGROS</h3>
+      <label>Menciona tus principales logros, campeonatos, reconocimientos o experiencias como portero:<textarea name="logros" rows="4"></textarea></label>
+      <label>¿Cuál es tu mayor objetivo como portero?<textarea name="objetivo" rows="3"></textarea></label>
+    </section>
+    <section class="form-section"><h3>4. FOTOGRAFÍA DEL PORTERO</h3>
+      <label class="upload-box"><span>＋</span><b>PEGAR O ADJUNTAR FOTOGRAFÍA</b><small>Selecciona una fotografía del portero (JPG o PNG).</small><input type="file" name="fotografia" accept="image/jpeg,image/png" required></label>
+    </section>
+    <section class="form-section"><h3>COMPROBANTE DE PAGO</h3>
+      <label class="upload-box"><span>＋</span><b>ADJUNTAR COMPROBANTE DE PAGO</b><small>Adjunta una imagen o PDF del comprobante.</small><input type="file" name="comprobante_pago" accept="image/*,application/pdf" required></label>
+    </section>
+    <section class="form-section"><h3>5. AUTORIZACIÓN (SI EL PARTICIPANTE ES MENOR DE EDAD)</h3>
+      <label>Nombre del padre, madre o acudiente:<input name="acudiente"></label>
+      <label>Celular del acudiente:<input name="celular_acudiente" type="tel"></label>
+      <label>Firma:<input name="firma_acudiente"></label>
+      <label class="consent"><input type="checkbox" name="autorizacion_fotos"> Autorizo el uso de fotografías y videos del participante para publicaciones y promoción de GK WAR 2026.</label>
+    </section>
+    <p class="form-welcome">¡BIENVENIDO A GK WAR!</p>
+    <p class="form-motto">No buscamos solamente competir: buscamos conocer, impulsar y conectar a los mejores porteros de Panamá.<br><b>GK WAR – EL ARTE DE SER PORTERO.</b></p>
+    <button class="button button-gold submit-button" type="submit">ENVIAR REGISTRO <span>↗</span></button>
+    <p class="form-note" id="form-status" role="status">La recepción de formularios se habilitará cuando conectemos el servicio seguro de registro.</p>
+  </form>
+</main>
+<footer><span>CANALEROS CUP <b>·</b> GK WAR PTY</span><span>17.01.2027 · PANAMÁ</span></footer>
+<script src="js/main.js"></script>
+</body></html>
